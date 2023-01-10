@@ -11,6 +11,6 @@ public class AndroidLauncher extends AndroidApplication {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		//initialize(new MyFirstGdxGame(), config);
-		initialize(new Drop(), config);
+		initialize(new DropBucketGame(), config);
 	}
 }

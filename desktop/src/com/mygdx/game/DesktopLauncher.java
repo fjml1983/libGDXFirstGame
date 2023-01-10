@@ -10,6 +10,6 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.setTitle("My First GDX Game");
 		//new Lwjgl3Application(new MyFirstGdxGame(), config);
-		new Lwjgl3Application(new Drop(), config);
+		new Lwjgl3Application(new DropBucketGame(), config);
 	}
 }
